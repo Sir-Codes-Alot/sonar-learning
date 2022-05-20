@@ -1,6 +1,9 @@
 import Head from 'next/head'
 
 export default function Home() {
+  for(let i = 0; i < 20;i++ ){
+    i = 20;
+  }
   let a = "";
   return (
     <div className="container">
