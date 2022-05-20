@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
+  let a = "";
   return (
     <div className="container">
       <Head>
