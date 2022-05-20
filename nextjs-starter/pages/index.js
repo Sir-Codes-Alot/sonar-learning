@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Test from '../components/test'
 
 export default function Home() {
   for(let i = 0; i < 20;i++ ){
@@ -8,6 +9,8 @@ export default function Home() {
     i++;
     i = 20;
   }
+
+
 
   let a = "";
   return (
